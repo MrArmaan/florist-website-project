@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Emilys+Candy&display=swap');
+
+body{
+    font-family: 'Emilys Candy', cursive;
+    font-size: larger;
+    background-image: url(Florist/Images/5447182.jpg);
+    background-size: 100%;
+    width: 100%;
+    height: 100%;}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #CCDDB7;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: #AD8991;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: xx-large;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: #FFFAFA;
+  }
+
+  h1{
+    color: #AD8991;
+    text-align: center;
+    margin-top: 5%;
+}
+
+p{
+    color: #AD8991;
+    text-align: center;
+    font-size: x-large;
+}
+
+.footer{
+    position: relative;
+    bottom: 0;
+    background-color: #CCDDB7;
+    margin-top: 0%;
+    text-align: center;
+    padding-left: 28%;
+}
+
+.bouquet_images{
+    padding-left: 17%;
+    padding-top: 6%;
+}
+
+.bouquet_prices1{
+    display: inline-block;
+    text-align: center;
+    padding-left: 19%;
+    color: #AD8991;
+}
+
+.bouquet_prices2{
+    display: inline-block;
+    text-align: center;
+    padding-left: 6%;
+    color: #AD8991;
+}
+
+.bouquet_prices3{
+    display: inline-block;
+    text-align:center;
+    padding-left: 7%;
+    color: #AD8991;
+}
